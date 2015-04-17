@@ -7,6 +7,7 @@
 //
 
 #import "cellEmployees.h"
+#import "Declarations.h"
 
 @implementation cellEmployees
 
@@ -20,4 +21,25 @@
     // Configure the view for the selected state
 }
 
+- (IBAction)btnEnablePressed:(id)sender
+{
+    
+   
+    
+    if ([maBtnState[self.btnEnable.tag] isEqual: @"ON"])
+    {
+        self.lblName.textColor = [UIColor blueColor];
+        
+        maBtnState[self.btnEnable.tag] = @"OFF";
+    }
+    
+    else if ([maBtnState[self.btnEnable.tag] isEqual: @"OFF"])
+    {
+        self.lblName.textColor = [UIColor redColor];
+        
+        maBtnState[self.btnEnable.tag] = @"ON";
+    }
+    
+    
+}
 @end

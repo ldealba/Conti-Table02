@@ -11,6 +11,7 @@
 
 NSMutableArray *aNames;
 NSMutableArray *aNumber;
+NSMutableArray *aButton;
 
 @interface Table01 ()
 
@@ -34,6 +35,9 @@ NSMutableArray *aNumber;
     aNames  = [NSMutableArray arrayWithObjects: @"Ned Stark", @"Jofrey Lannister",@"Kalissi",@"Khal Drogo",@"John Snow",nil];
     
     aNumber   = [NSMutableArray arrayWithObjects: @"721774", @"721775" , @"721776" , @"721777" , @"721778", nil];
+    
+    maBtnState = [NSMutableArray arrayWithObjects: @"OFF",@"OFF",@"OFF",@"OFF",@"OFF",nil];
+    
 }
 
 //-----------------------------------------
@@ -67,6 +71,7 @@ NSMutableArray *aNumber;
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellEmployees"];
     }
     
+    cell.btnEnable.tag          = indexPath.row;
     cell.selectionStyle         = UITableViewCellSelectionStyleNone;
     cell.vCell.backgroundColor  = [UIColor clearColor];
     cell.lblName.text           = aNames[indexPath.row];

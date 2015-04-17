@@ -18,6 +18,7 @@
 		D14E21241AE16A540071E197 /* Continental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D14E21231AE16A540071E197 /* Continental.jpg */; };
 		D14E21281AE16AE80071E197 /* cellEmployees.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E21261AE16AE80071E197 /* cellEmployees.m */; };
 		D14E21291AE16AE80071E197 /* cellEmployees.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14E21271AE16AE80071E197 /* cellEmployees.xib */; };
+		D14E212D1AE174C90071E197 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E212C1AE174C90071E197 /* Declarations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		D14E21251AE16AE80071E197 /* cellEmployees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellEmployees.h; sourceTree = "<group>"; };
 		D14E21261AE16AE80071E197 /* cellEmployees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellEmployees.m; sourceTree = "<group>"; };
 		D14E21271AE16AE80071E197 /* cellEmployees.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellEmployees.xib; sourceTree = "<group>"; };
+		D14E212B1AE174C90071E197 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		D14E212C1AE174C90071E197 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		D14E20F61AE1692B0071E197 /* Table-Conti02 */ = {
 			isa = PBXGroup;
 			children = (
+				D14E212A1AE1749B0071E197 /* Main */,
 				D14E21221AE16A460071E197 /* imgs */,
 				D14E21211AE16A3E0071E197 /* Customized */,
 				D14E21201AE16A310071E197 /* Controllers */,
@@ -155,6 +159,15 @@
 				D14E21231AE16A540071E197 /* Continental.jpg */,
 			);
 			name = imgs;
+			sourceTree = "<group>";
+		};
+		D14E212A1AE1749B0071E197 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D14E212B1AE174C90071E197 /* Declarations.h */,
+				D14E212C1AE174C90071E197 /* Declarations.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +274,7 @@
 			files = (
 				D14E20FD1AE1692B0071E197 /* AppDelegate.m in Sources */,
 				D14E21281AE16AE80071E197 /* cellEmployees.m in Sources */,
+				D14E212D1AE174C90071E197 /* Declarations.m in Sources */,
 				D14E21001AE1692B0071E197 /* Table_Conti02.xcdatamodeld in Sources */,
 				D14E21031AE1692B0071E197 /* Table01.m in Sources */,
 				D14E20FA1AE1692B0071E197 /* main.m in Sources */,

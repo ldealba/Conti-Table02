@@ -10,6 +10,9 @@
 
 @interface cellEmployees : UITableViewCell
 
+//Buttons
+@property (strong, nonatomic) IBOutlet UIButton *btnEnable;
+
 //Labels
 @property (strong, nonatomic) IBOutlet UILabel *lblNo;
 @property (strong, nonatomic) IBOutlet UILabel *lblName;
@@ -17,6 +20,10 @@
 
 //View
 @property (strong, nonatomic) IBOutlet UIView *vCell;
+
+//Actions
+- (IBAction)btnEnablePressed:(id)sender;
+
 
 
 @end

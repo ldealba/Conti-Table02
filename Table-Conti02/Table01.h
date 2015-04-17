@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Declarations.h"
 
 @interface Table01 : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
