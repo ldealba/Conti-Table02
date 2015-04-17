@@ -29,6 +29,8 @@
     if ([maBtnState[self.btnEnable.tag] isEqual: @"ON"])
     {
         self.lblName.textColor = [UIColor blueColor];
+        self.lblOff.text = @"OFF";
+        
         
         maBtnState[self.btnEnable.tag] = @"OFF";
     }
@@ -36,6 +38,7 @@
     else if ([maBtnState[self.btnEnable.tag] isEqual: @"OFF"])
     {
         self.lblName.textColor = [UIColor redColor];
+         self.lblOff.text = @"ON";
         
         maBtnState[self.btnEnable.tag] = @"ON";
     }
