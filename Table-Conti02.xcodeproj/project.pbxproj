@@ -10,11 +10,14 @@
 		D14E20FA1AE1692B0071E197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20F91AE1692B0071E197 /* main.m */; };
 		D14E20FD1AE1692B0071E197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20FC1AE1692B0071E197 /* AppDelegate.m */; };
 		D14E21001AE1692B0071E197 /* Table_Conti02.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14E20FE1AE1692B0071E197 /* Table_Conti02.xcdatamodeld */; };
-		D14E21031AE1692B0071E197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E21021AE1692B0071E197 /* ViewController.m */; };
+		D14E21031AE1692B0071E197 /* Table01.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E21021AE1692B0071E197 /* Table01.m */; };
 		D14E21061AE1692B0071E197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14E21041AE1692B0071E197 /* Main.storyboard */; };
 		D14E21081AE1692B0071E197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14E21071AE1692B0071E197 /* Images.xcassets */; };
 		D14E210B1AE1692B0071E197 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14E21091AE1692B0071E197 /* LaunchScreen.xib */; };
 		D14E21171AE1692B0071E197 /* Table_Conti02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E21161AE1692B0071E197 /* Table_Conti02Tests.m */; };
+		D14E21241AE16A540071E197 /* Continental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D14E21231AE16A540071E197 /* Continental.jpg */; };
+		D14E21281AE16AE80071E197 /* cellEmployees.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E21261AE16AE80071E197 /* cellEmployees.m */; };
+		D14E21291AE16AE80071E197 /* cellEmployees.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14E21271AE16AE80071E197 /* cellEmployees.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,18 @@
 		D14E20FB1AE1692B0071E197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D14E20FC1AE1692B0071E197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D14E20FF1AE1692B0071E197 /* Table_Conti02.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_Conti02.xcdatamodel; sourceTree = "<group>"; };
-		D14E21011AE1692B0071E197 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D14E21021AE1692B0071E197 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D14E21011AE1692B0071E197 /* Table01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table01.h; sourceTree = "<group>"; };
+		D14E21021AE1692B0071E197 /* Table01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table01.m; sourceTree = "<group>"; };
 		D14E21051AE1692B0071E197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14E21071AE1692B0071E197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D14E210A1AE1692B0071E197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D14E21101AE1692B0071E197 /* Table-Conti02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table-Conti02Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14E21151AE1692B0071E197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D14E21161AE1692B0071E197 /* Table_Conti02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_Conti02Tests.m; sourceTree = "<group>"; };
+		D14E21231AE16A540071E197 /* Continental.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Continental.jpg; path = imgs/Continental.jpg; sourceTree = "<group>"; };
+		D14E21251AE16AE80071E197 /* cellEmployees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellEmployees.h; sourceTree = "<group>"; };
+		D14E21261AE16AE80071E197 /* cellEmployees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellEmployees.m; sourceTree = "<group>"; };
+		D14E21271AE16AE80071E197 /* cellEmployees.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellEmployees.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +90,11 @@
 		D14E20F61AE1692B0071E197 /* Table-Conti02 */ = {
 			isa = PBXGroup;
 			children = (
+				D14E21221AE16A460071E197 /* imgs */,
+				D14E21211AE16A3E0071E197 /* Customized */,
+				D14E21201AE16A310071E197 /* Controllers */,
 				D14E20FB1AE1692B0071E197 /* AppDelegate.h */,
 				D14E20FC1AE1692B0071E197 /* AppDelegate.m */,
-				D14E21011AE1692B0071E197 /* ViewController.h */,
-				D14E21021AE1692B0071E197 /* ViewController.m */,
 				D14E21041AE1692B0071E197 /* Main.storyboard */,
 				D14E21071AE1692B0071E197 /* Images.xcassets */,
 				D14E21091AE1692B0071E197 /* LaunchScreen.xib */,
@@ -120,6 +128,33 @@
 				D14E21151AE1692B0071E197 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14E21201AE16A310071E197 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D14E21011AE1692B0071E197 /* Table01.h */,
+				D14E21021AE1692B0071E197 /* Table01.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D14E21211AE16A3E0071E197 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				D14E21251AE16AE80071E197 /* cellEmployees.h */,
+				D14E21261AE16AE80071E197 /* cellEmployees.m */,
+				D14E21271AE16AE80071E197 /* cellEmployees.xib */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		D14E21221AE16A460071E197 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D14E21231AE16A540071E197 /* Continental.jpg */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14E21291AE16AE80071E197 /* cellEmployees.xib in Resources */,
 				D14E21061AE1692B0071E197 /* Main.storyboard in Resources */,
+				D14E21241AE16A540071E197 /* Continental.jpg in Resources */,
 				D14E210B1AE1692B0071E197 /* LaunchScreen.xib in Resources */,
 				D14E21081AE1692B0071E197 /* Images.xcassets in Resources */,
 			);
@@ -223,8 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14E20FD1AE1692B0071E197 /* AppDelegate.m in Sources */,
+				D14E21281AE16AE80071E197 /* cellEmployees.m in Sources */,
 				D14E21001AE1692B0071E197 /* Table_Conti02.xcdatamodeld in Sources */,
-				D14E21031AE1692B0071E197 /* ViewController.m in Sources */,
+				D14E21031AE1692B0071E197 /* Table01.m in Sources */,
 				D14E20FA1AE1692B0071E197 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
